@@ -29,3 +29,11 @@
 - [컨테이닝 블록의 모든것](https://developer.mozilla.org/ko/docs/Web/CSS/All_About_The_Containing_Block)
 - 모든 태그는 기본적으로 position : static 이다.
 - [CSS 우선순위](https://www.zerocho.com/category/CSS/post/588cb95ca63e64132496a5d5)
+
+## ch5
+- [Block Format Context 블록 서식 문맥](https://developer.mozilla.org/ko/docs/Web/Guide/CSS/Block_formatting_context)
+- [float와 정렬](https://www.zerocho.com/category/CSS/post/5881edef636a7f0b8e8507d8)
+- 무조건 부모 태그라고해서 자식 태그를 다 감싸는 것이 아니다.
+- overflow hidden 과 auto 의 차이는 부모의 높이가 있을 때 자식이 부모보다 높이가 크면 스크롤 바를 만든다. 
+hidden 은 자식태그의 높이가 더 크면 잘라버린다.(숨긴다) 
+- [쌓임 맥락 CSS](https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context)
