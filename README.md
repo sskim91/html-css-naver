@@ -37,3 +37,8 @@
 - overflow hidden 과 auto 의 차이는 부모의 높이가 있을 때 자식이 부모보다 높이가 크면 스크롤 바를 만든다. 
 hidden 은 자식태그의 높이가 더 크면 잘라버린다.(숨긴다) 
 - [쌓임 맥락 CSS](https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context)
+
+## ch6
+- [마진 상쇄 완벽 이해](https://velog.io/@raram2/CSS-%EB%A7%88%EC%A7%84-%EC%83%81%EC%87%84Margin-collapsing-%EC%9B%90%EB%A6%AC-%EC%99%84%EB%B2%BD-%EC%9D%B4%ED%95%B4)
+- display: inline-block 과의 간격 문제 검색 ㄱㄱ
+- 자식이 float면 둥둥 떠있기 때문에 부모 태그에서 영역이 안나타남 이럴 경우 부모태그에 display:inline-block 과 필요시 width:100% 추가할것
