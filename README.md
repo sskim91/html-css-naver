@@ -42,3 +42,13 @@ hidden 은 자식태그의 높이가 더 크면 잘라버린다.(숨긴다)
 - [마진 상쇄 완벽 이해](https://velog.io/@raram2/CSS-%EB%A7%88%EC%A7%84-%EC%83%81%EC%87%84Margin-collapsing-%EC%9B%90%EB%A6%AC-%EC%99%84%EB%B2%BD-%EC%9D%B4%ED%95%B4)
 - display: inline-block 과의 간격 문제 검색 ㄱㄱ
 - 자식이 float면 둥둥 떠있기 때문에 부모 태그에서 영역이 안나타남 이럴 경우 부모태그에 display:inline-block 과 필요시 width:100% 추가할것
+
+## ch7
+- calc와 inline-block
+- cacl() 를 사용하면 css안에서도 연산을 할 수 있다. (띄어 쓰기 유의할 것)
+- inline block 간격 가로 간의 문제는 float로 해결하고 세로 간의 문제는 vertical-align : top을 주던지..float 주던지 해결해야함
+- z-index 쌓임 맥락
+- 형제들 끼리만 z-index가 중요하다.
+- 부모 태그 에서의 z-index 싸움에서 자식태그에 있는 z-index가 아무리 높아도 위의 부모 태그가 z-index 크기에서 지면 저얼대 나타날 수 없다.
+
+
