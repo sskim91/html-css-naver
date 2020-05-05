@@ -51,4 +51,8 @@ hidden 은 자식태그의 높이가 더 크면 잘라버린다.(숨긴다)
 - 형제들 끼리만 z-index가 중요하다.
 - 부모 태그 에서의 z-index 싸움에서 자식태그에 있는 z-index가 아무리 높아도 위의 부모 태그가 z-index 크기에서 지면 저얼대 나타날 수 없다.
 
+## ch8
+- white-space : nowrap; 
+- font-weight 글자 굵기 기본이 400이나 normal 더 굵게하고 싶으면 높이면 되고 아니면 낮추면 된다.
+- webfont 사용법
 
